@@ -42,6 +42,7 @@ img{
 .nav{
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .menu{
@@ -81,10 +82,6 @@ img{
     margin-right: 40px;
 }
 
-.last-list{
-    margin-right: 0;
-}
-
 .conts{
     font-size: 16px;
     line-height: 1.5;
@@ -105,6 +102,11 @@ img{
     background-color: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
+}
+
+.brand{
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team{
