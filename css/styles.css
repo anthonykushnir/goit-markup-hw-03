@@ -81,10 +81,6 @@ img{
     margin-right: 40px;
 }
 
-.visually-hidden{
-    overflow: hidden;
-}
-
 .conts{
     font-size: 16px;
     line-height: 1.5;
@@ -118,15 +114,30 @@ img{
 }
 
 .list-brand-item{
-    flex-basis: calc((100% - 72px) / 4)
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .team{
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.list-team{
+    display: flex;
+    gap: 24px;
 }
 
 .teammates{
     background-color: #FFFFFF;
+    flex-basis: calc((100% - 72px) 4);
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.teammate-container{
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .section-headline{
@@ -137,6 +148,7 @@ img{
     color: #2E2F42;
     line-height: 1.11;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .headline{
