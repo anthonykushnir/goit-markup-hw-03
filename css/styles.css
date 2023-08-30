@@ -1,8 +1,12 @@
 body{
     font-family: 'Roboto', sans-serif;
-    font-size: 16 px;
+    font-size: 16px;
     color: #434455;
     background-color: #FFFFFF;
+}
+
+li{
+    list-style: none;
 }
 
 .main-headline{
@@ -21,6 +25,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#2e2f42;
+    text-decoration: none;
 }
 
 .nav:hover{
@@ -33,6 +38,7 @@ body{
 
 .address{
     font-style: normal;
+    text-decoration: none;
 }
 
 .conts{
@@ -120,6 +126,7 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
 }
 
 header .logo .partoflogo{
