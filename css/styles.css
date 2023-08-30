@@ -62,7 +62,6 @@ img{
 
 .address{
     font-style: normal;
-    text-decoration: none;
 }
 
 .conts{
@@ -70,6 +69,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-decoration: none;
 }
 
 .conts:hover{
