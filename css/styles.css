@@ -114,13 +114,19 @@ img{
 }
 
 .list-brand-item{
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
+}
+
+.brand .headline{
+    text-align: left;
+}
+
+.brand .medium{
+    text-align: left;
 }
 
 .visually-hidden{
     visibility: hidden;
-    pointer-events: none;
-    position: absolute;
   }
 
 .team{
