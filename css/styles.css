@@ -19,6 +19,7 @@ img{
 
 .div{
     display: flex;
+    justify-content: space-around;
 }
 
 .container{
@@ -42,7 +43,6 @@ img{
 .nav{
     display: flex;
     align-items: center;
-    justify-content: space-around;
 }
 
 .menu{
