@@ -113,8 +113,8 @@ img{
     gap: 24px;
 }
 
-.list-brand-item:first-child{
-    width: calc((100%-72px)/4);
+.list-brand-item{
+    width: calc((100% - 72px) / 4);
 }
 
 .team{
@@ -132,7 +132,7 @@ img{
     background-color: #FFFFFF;
 }
 
-.teammates:first-child{
+.teammates{
     flex-basis: calc((100% - 72px) 4);
     border-radius: 0px 0px 4px 4px;
 }
@@ -175,7 +175,7 @@ img{
     row-gap: 48px;
 }
 
-.list-portfolio-item:first-child{
+.list-portfolio-item{
     width: calc((100% - 48px)/3);
 }
 
