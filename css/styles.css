@@ -160,6 +160,11 @@ img{
     margin-bottom: 8px;
 }
 
+.portfolio{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .small{
     font-size: 12px;
     line-height: 14px;
