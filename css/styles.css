@@ -113,16 +113,16 @@ img{
     gap: 24px;
 }
 
-.list-brand-item{
-    flex-basis: calc((100% - 72px)/4);
-}
-
 .brand .headline{
     text-align: left;
 }
 
 .brand .medium{
     text-align: left;
+}
+
+.list-brand-item{
+    flex-basis: calc((100% - 72px)/4);
 }
 
 .visually-hidden{
