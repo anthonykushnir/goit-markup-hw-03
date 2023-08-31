@@ -135,8 +135,8 @@ img{
     overflow: hidden;
   }
 
-.brands{
-    flex-basis: calc((100% - 24px) / 4);
+.list-brand-item{
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 
