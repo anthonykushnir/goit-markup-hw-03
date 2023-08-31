@@ -136,7 +136,7 @@ img{
   }
 
 .brands{
-    flex-basis: calc((100% - 24px) / 4)
+    flex-basis: calc((100% - 24px) / 4);
 }
 
 
