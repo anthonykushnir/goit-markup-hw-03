@@ -135,7 +135,7 @@ img{
     overflow: hidden;
   }
 
-.list-brand .brands{
+.list-brand li{
     width: calc((100% - 3 * 24px) / 4);
 }
 
