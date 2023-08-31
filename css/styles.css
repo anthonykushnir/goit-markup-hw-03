@@ -135,12 +135,8 @@ img{
     overflow: hidden;
   }
 
-.list-brand li{
-    display: flex;
-    width: 264px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
+.brands{
+    flex-basis: calc((100% - 24px) / 4)
 }
 
 
