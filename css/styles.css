@@ -121,10 +121,6 @@ img{
     text-align: left;
 }
 
-.list-brand-item{
-    flex-basis: calc((100% - 72px)/4);
-}
-
 .visually-hidden{
     position: absolute;
     width: 1px;
@@ -138,6 +134,11 @@ img{
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+
+.brands{
+    flex-basis: calc((100% - 72px)/4);
+}
+
 
 .team{
     background-color: #F4F4FD;
