@@ -136,8 +136,13 @@ img{
   }
 
 .list-brand li{
-    width: calc((100% - 3 * 24px) / 4);
+    display: flex;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
 }
+
 
 
 .team{
