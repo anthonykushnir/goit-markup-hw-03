@@ -110,6 +110,8 @@ img{
 
 .list-brand{
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .brand .headline{
@@ -135,9 +137,13 @@ img{
   }
 
 .list-brand-item{
+    margin-right: 24px;
     flex-basis: calc((100% - 72px) / 4);
 }
 
+.list-brand-item:last-child{
+    margin-right: 0;
+}
 
 .team{
     background-color: #F4F4FD;
